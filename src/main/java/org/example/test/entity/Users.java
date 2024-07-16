@@ -14,4 +14,8 @@ public class Users {
 
     @Column(unique = false)
     private String email;
+
+    private String address;
+
+    private Integer zipCode;
 }
